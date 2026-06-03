@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagen grande</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1a1a1a;
+    }
+
+    img {
+      width: 80vw;          /* Ancho = 80% de la pantalla */
+      height: 80vh;         /* Alto = 80% de la pantalla */
+      object-fit: contain;  /* Mantiene proporciones sin recortar */
+      border-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+  <img src="wifii.jpg" alt="Gorila">
+</body>
+</html>
